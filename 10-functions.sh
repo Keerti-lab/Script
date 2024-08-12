@@ -31,6 +31,3 @@ VALIDATE $? "Installing Mysql"
 dnf install git -y &>>$LOGFILE
 VALIDATE $? "Installing git"
 
-
-
-echo "is script still proceeding?"
