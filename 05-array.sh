@@ -6,5 +6,5 @@ MOVIES=("RRR" "DJ" "Hello")
 #size of above array is 3.
 #index are 0,1,2
 
-echo "First Movie is: ${Movies[0]}"
-echo "First Movie is: ${Movies[@]}"
+echo "First Movie is: ${MOVIES[0]}"
+echo "First Movie is: ${MOVIES[@]}"
