@@ -39,7 +39,7 @@ do
     then
         echo -e "$i is already installed... $Y skipping $N"
     else
-        echo dnf install $i &>>$LOGFILE
+        echo dnf install $i -y  &>>$LOGFILE
         VALIDATE $? "Installation of $i"
 
     fi
