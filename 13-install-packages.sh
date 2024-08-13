@@ -13,7 +13,7 @@ N="\e[0m"
 
 
 
-if[ $USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then
     echo "Please run using root acess"
     exit 1
